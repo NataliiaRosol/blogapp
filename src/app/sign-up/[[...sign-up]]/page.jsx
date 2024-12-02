@@ -1,11 +1,9 @@
-import { SignOut } from '@clerk/nextjs'
+import { SignUp } from '@clerk/nextjs';
 
-function SignUpPage() {
+export default function SignUpPage() {
   return (
-    <div className="flex items-center justufy-center p-3">
-    <SignOut />
-  </div>
-  )
+    <div className='flex items-center justify-center p-3'>
+      <SignUp />
+    </div>
+  );
 }
-
-export default SignUpPage
